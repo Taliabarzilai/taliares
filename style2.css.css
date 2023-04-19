@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.container {
+    max-width: 58rem;
+    margin: 0 auto;
+}
+
+
+header {
+    width: 100%;
+    min-height: 40px;
+}
+
+#header_your {
+    font-size: 2rem;
+}
+
+#header_logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+main {
+    min-height: 250px;
+    background-image: url(photo/blue.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: rgb(6, 112, 225, 0.8);
+    background-blend-mode: soft-light;
+    color: white;
+}
+
+.main-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-left {
+    width: 50%;
+    padding: 40px 20px;
+}
+
+.box-right {
+    width: 35%;
+}
+
+form {
+    margin: 40px 0;
+    width: 100%;
+    height: fit-content;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+}
+
+form h3 {
+    margin-bottom: 12px;
+}
+
+form input {
+    display: block;
+    outline: none;
+    font: inherit;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+form label {
+    line-height: 16px;
+    color: #fff;
+    font-weight: bold;
+}
+
+form .form-btn {
+    width: 100%;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form #privet {
+    font-size: 12px;
+}
+
+.strip {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.strip-boxes {
+    width: 30%;
+    text-align: center;
+    align-items: center;
+    padding: 28px;
+    color:#313131cc;
+}
+
+
+.about {
+    min-height: 400px;
+    background-image: url(photo/porzelan.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.900);
+    color: black;
+}
+
+.about-center {
+    max-width: 58rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 3rem;
+}
+
+img#Talia {
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid rgba(128, 128, 128, 0.514);
+}
+
+footer {
+    background-color: white;
+    height: 40px;
+    text-align: center;
+    line-height: 20px;
+}
+
+footer a {
+    font-size: 11px;
+    color: #7e7e7e;
+    padding: 12px 0;
+    }
+
+    .mobile_only{
+        display: none;
+    }
+
+    @media screen and (max-width: 600px) {
+.strip-boxes {
+    width: 100%;
+    text-align: left;
+}
+ 
+.container{
+text-align: center;
+padding: 2px;
+
+}
+.box-left {
+
+    width: 100%;
+    text-align: center;
+
+}
+.box-right{
+    width: 100%;
+}
+
+.phone-call{
+width: 80%;
+height: 30px;
+background-color: orange;
+
+}
+
+.mobile_only{
+    display: block;
+}
+}
+
+
+    
